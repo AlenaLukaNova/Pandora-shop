@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;700&display=swap');;
+
+:root {
+  --pink: #FBA0E3;
+  --dark: #372A33;
+  --yellow: #C9C0BB;
+  --peach: #FDDDE6;
+  --white: #FFF;
+  --gray: rgb(118, 118, 118);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Cormorant Infant', serif;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+main {
+  flex-grow: 1;
+}
+
+.logo {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 35px;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  opacity: .8;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #FDDDE6;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav a, footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav a:hover, footer a:hover {
+  color: var(--dark)
+}
+
+.nav input:focus {
+  outline-color: var(--peach);
+  outline-style: solid;
+}
+
+main {
+  padding: 40px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.about-us {
+  max-width: 900px;
+  margin: 100px auto 0;
+  font-size: 25px;
+  text-align: center;
+}
+
+p {
+  padding: 60px 0;
+  margin: 0;
+}
+
+img {
+  border-radius: 15px;
+}
+
+img:hover {
+  position: relative;
+  z-index: 7;
+  transform: scale(1.2);
+  transition-duration: .4s;
+}
+
+.site-search {
+  display: flex;
+}
+
+.site-search input {
+  border: 1px solid var(--gray);
+  border-radius: 4px 0 0 4px;
+}
+
+.site-search button {
+  background: var(--peach);
+  border: 1px solid var(--gray);
+  -webkit-text-stroke: 1px var(--peach);
+  border-radius: 0 4px 4px 0;
+  border-left: 0;
+}
+
+#shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.shop-item {
+  width: calc(30% - 17px);
+  border-radius: 7px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+   
+}
+
+.shop-item .content {
+  padding: 10px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.shop-item img {
+  width: 100%;
+  height: 400px;
+  flex-shrink: 3;
+  object-fit: cover;
+}
+
+.shop-item h1 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.shop-item p {
+  margin-top: 0;
+}
+
+.shop-item .price {
+  background-color: var(--peach);
+  padding: 4px 8px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-top: auto;
+}
+
+.shop-item .footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-item .rating {
+  cursor: pointer;
+  color: var(--dark);
+}
+
+.shop-item .tags {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.shop-item .tag {
+  background: var(--yellow);
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+.networks i {
+  color: #000;
+  font-size: 17px;
+  transition: .3s;
+}
+
+.networks a {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.contacts {
+  text-align: center;
+  font-weight: 20px;
+  padding: 15px 0;
+}
+
+.networks i:hover {
+  transform: scale(2);
+}
+
+#nothing-found {
+  color: var(--dark);
+  position: absolute;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}

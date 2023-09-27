@@ -13,7 +13,7 @@ const items = [
     tags: ["Серьги"],
     price: 1900,
     img: "./img/2.jpg",
-    rating: 3.1,
+    rating: 4.1,
   },
   {
     title: "Браслет-цепочка",
@@ -45,7 +45,7 @@ const items = [
     tags: ["Браслет", "Gold"],
     price: 2200,
     img: "./img/6.jpg",
-    rating: 3.2,
+    rating: 4.2,
   },
   {
     title: "Браслет-бестселлер Pandora",
@@ -53,7 +53,7 @@ const items = [
     tags: ["Браслет", "Silver"],
     price: 1300,
     img: "./img/7.jpg",
-    rating: 2.9,
+    rating: 4.9,
   },
   {
     title: "Ожерелье-подвеска Pandora Moments U-Shape Charm",
@@ -61,7 +61,7 @@ const items = [
     tags: ["Ожерелье", "Silver"],
     price: 1500,
     img: "./img/8.jpg",
-    rating: 3.4,
+    rating: 4.4,
   },
   {
     title: "Ожерелье-подвеска Pandora Signature Intertwined Pavé",
@@ -77,7 +77,7 @@ const items = [
     tags: ["Браслет", "Silver"],
     price: 1800,
     img: "./img/10.jpg",
-    rating: 3.2,
+    rating: 4.2,
   },
   {
     title: "Двухцветный разделительный шарм дружбы Pandora",

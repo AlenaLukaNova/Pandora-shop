@@ -93,7 +93,7 @@ const items = [
     tags: ["Шарм", "Silver"],
     price: 2800,
     img: "./img/12.jpg",
-    rating: 4.1,
+    rating: 5.1,
   },
 ];
 
